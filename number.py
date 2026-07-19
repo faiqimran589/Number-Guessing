@@ -1,8 +1,8 @@
-
+import random
+d=random.randint(1,100)
 while True:
  number=int((input('Enter the number between 1 and 100:')))
- import random
- d=random.randint(1,100)
+
 
  if number > d :
    print('Try lower number')
